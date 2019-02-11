@@ -5,5 +5,5 @@ print("Formatted String is ",Alphastring)
 
 # Aligning Numbers
 
-NumericString = "|{0:<15d}|{0:^15d}|{0:>15d}|".format(125,125,125)
+NumericString = "|{0:<15}|{0:^15}|{0:>15}|".format(125,125,125)
 print("Formatted String is ",NumericString)
